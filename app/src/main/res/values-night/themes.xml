@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TheWitcherCharachterSheet" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="android:colorBackground">@color/background</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/toolbar</item>
+        <item name="colorPrimaryVariant">@color/toolbar</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/toolbar</item>
+        <item name="colorSecondaryVariant">@color/toolbar</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimaryDark">@color/toolbar</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="spinnerStyle">@style/SpinnerStyle</item>
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

@@ -1,0 +1,1530 @@
+<resources>
+
+    <string name="app_name">Ведьмак: Лист персонажа</string>
+    <string name="open_nav">Открыть навигационную панель</string>
+    <string name="close_nav">Закрыть навигационную панель</string>
+    <string name="charisma">Харизма</string>
+    <string name="deception">Обман</string>
+    <string name="performance">Выступление</string>
+    <string name="insight">Понимание людей</string>
+    <string name="persuasion">Убеждение</string>
+    <string name="city_knowledge">Знание улиц</string>
+    <string name="arts">Искусство</string>
+    <string name="etiquette">Этикет</string>
+    <string name="strength">Сила</string>
+    <string name="toughness">Стойкость</string>
+    <string name="dodge">Изворотливость</string>
+    <string name="perception">Внимание</string>
+    <string name="survival">Выживание</string>
+    <string name="deduction">Дедукция</string>
+    <string name="monster_knowledge">Монстрология</string>
+    <string name="education">Образование</string>
+    <string name="tutoring">Обучение</string>
+    <string name="tactics">Тактика</string>
+    <string name="trade">Торговля</string>
+    <string name="language_common">Всеобщий</string>
+    <string name="language_elder_speech">Старшая речь</string>
+    <string name="language_dwarven">Краснолюдский</string>
+    <string name="melee_combat">Ближний бой</string>
+    <string name="athletics">Атлетика</string>
+    <string name="brawling">Борьба</string>
+    <string name="riding">Верховая езда</string>
+    <string name="polearms">Древковое</string>
+    <string name="light_blades">Легкие клинки</string>
+    <string name="blades">Клинки</string>
+    <string name="seafaring">Мореходство</string>
+    <string name="sleight_of_hand">Ловкость рук</string>
+    <string name="stealth">Скрытность</string>
+    <string name="crossbows">Арбалеты</string>
+    <string name="bows">Луки</string>
+    <string name="gambling">Азартные игры</string>
+    <string name="looks">Внешний вид</string>
+    <string name="leadership">Лидерство</string>
+    <string name="seduction">Соблазнение</string>
+    <string name="alchemy">Алхимия</string>
+    <string name="lockpicking">Взлом замков</string>
+    <string name="trap_knowledge">Знание ловушек</string>
+    <string name="crafting">Изготовление</string>
+    <string name="disguise">Маскировка</string>
+    <string name="first_aid">Первая помощь</string>
+    <string name="forgery">Подделывание</string>
+    <string name="intimidation">Запугивание</string>
+    <string name="hex_craft">Наведение порчи</string>
+    <string name="ritual_craft">Проведение ритуалов</string>
+    <string name="magic_resistance">Сопротивление магии</string>
+    <string name="resist_coercion">Сопротивление убеждению</string>
+    <string name="spellcraft">Сотворение заклинаний</string>
+    <string name="bravery">Храбрость</string>
+    <string name="any_language">Язык (выберите 1)</string>
+
+    <string name="intelligence">Интеллект</string>
+    <string name="reaction">Реакция</string>
+    <string name="agility">Ловкость</string>
+    <string name="constitution">Телосложение</string>
+    <string name="speed">Скорость</string>
+    <string name="empathy">Эмпатия</string>
+    <string name="craft">Ремесло</string>
+    <string name="will">Воля</string>
+    <string name="luck">Удача</string>
+
+    <string name="intelligence_short">ИНТ</string>
+    <string name="reaction_short">РЕА</string>
+    <string name="agility_short">ЛОВ</string>
+    <string name="constitution_short">ТЕЛ</string>
+    <string name="speed_short">СКОР</string>
+    <string name="empathy_short">ЭМП</string>
+    <string name="craft_short">РЕМ</string>
+    <string name="will_short">ВОЛЯ</string>
+    <string name="luck_short">УДЧ</string>
+
+    <string name="energy">Энергия</string>
+    <string name="stun">Устойчивость</string>
+    <string name="run">Бег</string>
+    <string name="jump">Прыжок</string>
+    <string name="health">ПЗ</string>
+    <string name="stamina">Выносливость</string>
+    <string name="carry_weight">Вес</string>
+    <string name="rest">Отдых</string>
+    <string name="melee_bonus">Ближний бой</string>
+
+    <string name="energy_short">ЭН</string>
+    <string name="stun_short">УСТ</string>
+    <string name="run_short">БЕГ</string>
+    <string name="jump_short">ПРЖ</string>
+    <string name="health_short">ПЗ</string>
+    <string name="stamina_short">ВЫН</string>
+    <string name="carry_weight_short">ВЕС</string>
+    <string name="rest_short">ОТД</string>
+    <string name="melee_bonus_short">БЛЖ</string>
+    <string-array name="stats_short">
+        <item>@string/intelligence_short</item>
+        <item>@string/reaction_short</item>
+        <item>@string/agility_short</item>
+        <item>@string/constitution_short</item>
+        <item>@string/speed_short</item>
+        <item>@string/empathy_short</item>
+        <item>@string/craft_short</item>
+        <item>@string/will_short</item>
+        <item>@string/luck_short</item>
+    </string-array>
+    <string-array name="additional_stats">
+        <item>@string/energy</item>
+        <item>@string/stun</item>
+        <item>@string/run</item>
+        <item>@string/jump</item>
+        <item>@string/health</item>
+        <item>@string/stamina</item>
+        <item>@string/carry_weight</item>
+        <item>@string/rest</item>
+        <item>@string/melee_bonus</item>
+    </string-array>
+    <string-array name="additional_stats_short">
+        <item>@string/energy_short</item>
+        <item>@string/stun_short</item>
+        <item>@string/run_short</item>
+        <item>@string/jump_short</item>
+        <item>@string/health_short</item>
+        <item>@string/stamina_short</item>
+        <item>@string/carry_weight_short</item>
+        <item>@string/rest_short</item>
+        <item>@string/melee_bonus_short</item>
+    </string-array>
+    <string name="bard">Бард</string>
+    <string name="bard_description"> Сударыня, я — поэт. И я здесь, чтобы восхвалять вашу неземную красоту, если вы окажете мне честь и явите себя полностью.
+        Лютик</string>
+    <string-array name="bard_abilities">
+        <item>@string/charisma</item>
+        <item>@string/deception</item>
+        <item>@string/performance</item>
+        <item>@string/any_language</item>
+        <item>@string/insight</item>
+        <item>@string/persuasion</item>
+        <item>@string/city_knowledge</item>
+        <item>@string/arts</item>
+        <item>@string/seduction</item>
+        <item>@string/etiquette</item>
+    </string-array>
+    <string-array name="witcher_abilities">
+        <item>@string/perception</item>
+        <item>@string/deduction</item>
+        <item>@string/spellcraft</item>
+        <item>@string/alchemy</item>
+        <item>@string/dodge</item>
+        <item>@string/survival</item>
+        <item>@string/blades</item>
+        <item>@string/athletics</item>
+        <item>@string/stealth</item>
+        <item>@string/riding</item>
+    </string-array>
+    <string-array name="fighter_abilities">
+        <item>@string/melee_combat</item>
+        <item>@string/crossbows</item>
+        <item>@string/polearms</item>
+        <item>@string/bows</item>
+        <item>@string/blades</item>
+        <item>@string/survival</item>
+        <item>@string/bravery</item>
+        <item>@string/strength</item>
+        <item>@string/intimidation</item>
+        <item>@string/dodge</item>
+    </string-array>
+    <string-array name="priest_abilities">
+        <item>@string/ritual_craft</item>
+        <item>@string/leadership</item>
+        <item>@string/bravery</item>
+        <item>@string/insight</item>
+        <item>@string/hex_craft</item>
+        <item>@string/first_aid</item>
+        <item>@string/charisma</item>
+        <item>@string/survival</item>
+        <item>@string/tutoring</item>
+        <item>@string/spellcraft</item>
+    </string-array>
+    <string-array name="mage_abilities">
+        <item>@string/insight</item>
+        <item>@string/spellcraft</item>
+        <item>@string/hex_craft</item>
+        <item>@string/magic_resistance</item>
+        <item>@string/polearms</item>
+        <item>@string/education</item>
+        <item>@string/ritual_craft</item>
+        <item>@string/etiquette</item>
+        <item>@string/seduction</item>
+        <item>@string/looks</item>
+    </string-array>
+    <string-array name="medic_abilities">
+        <item>@string/resist_coercion</item>
+        <item>@string/charisma</item>
+        <item>@string/etiquette</item>
+        <item>@string/bravery</item>
+        <item>@string/insight</item>
+        <item>@string/survival</item>
+        <item>@string/trade</item>
+        <item>@string/deduction</item>
+        <item>@string/light_blades</item>
+        <item>@string/alchemy</item>
+    </string-array>
+    <string-array name="criminal_abilities">
+        <item>@string/sleight_of_hand</item>
+        <item>@string/lockpicking</item>
+        <item>@string/city_knowledge</item>
+        <item>@string/forgery</item>
+        <item>@string/deception</item>
+        <item>@string/stealth</item>
+        <item>@string/intimidation</item>
+        <item>@string/light_blades</item>
+        <item>@string/athletics</item>
+        <item>@string/perception</item>
+    </string-array>
+    <string-array name="craftsman_abilities">
+        <item>@string/crafting</item>
+        <item>@string/trade</item>
+        <item>@string/athletics</item>
+        <item>@string/toughness</item>
+        <item>@string/strength</item>
+        <item>@string/city_knowledge</item>
+        <item>@string/arts</item>
+        <item>@string/alchemy</item>
+        <item>@string/education</item>
+        <item>@string/persuasion</item>
+    </string-array>
+    <string-array name="merchant_abilities">
+        <item>@string/charisma</item>
+        <item>@string/light_blades</item>
+        <item>@string/any_language</item>
+        <item>@string/education</item>
+        <item>@string/city_knowledge</item>
+        <item>@string/trade</item>
+        <item>@string/persuasion</item>
+        <item>@string/insight</item>
+        <item>@string/gambling</item>
+        <item>@string/resist_coercion</item>
+    </string-array>
+    <string name="craftsman">Ремесленник</string>
+    <string name="craftsman_description"> Брось ты этот хлам! Я выкую тебе меч, способный ранить бога.
+        Эйвар Хаттори</string>
+    <string name="criminal">Преступник</string>
+    <string name="criminal_description"> Шрам на лице будущей императрицы — моё наивысшее достижение.
+        Стефан Скеллен</string>
+    <string name="fighter">Воин</string>
+    <string name="fighter_description"> Солдаты мыслят тактически. Они знают, когда нужно нанести удар, когда отступить, когда идти в атаку и когда держать строй.
+        Вернон Роше</string>
+    <string name="mage">Маг</string>
+    <string name="mage_description"> Магия — это Хаос, Искусство и Наука. Она — проклятие, благословение и прогресс.
+        Йеннифэр из Венгерберга</string>
+    <string name="medic">Медик</string>
+    <string name="medic_description">Я еду в Вызиму, чтобы помочь бороться с Бичом Катрионы в лечебнице Лебеды.
+        Шани</string>
+    <string name="merchant">Торговец</string>
+    <string name="merchant_description"> Нашёл покупателя на мою коллекцию — в ней всего трёх карт не хватает.
+        Золтан Хивай</string>
+    <string name="priest">Жрец</string>
+    <string name="priest_description">Нас больше заботит не количество форели в реках, а природное равновесие.
+        Мышовур</string>
+    <string name="witcher">Ведьмак</string>
+    <string name="witcher_description"> Этому миру не нужен герой. Ему нужен профессионал.
+        Геральт из Ривии</string>
+    <string name="human">Человек</string>
+    <string name="dwarf">Краснолюд</string>
+    <string name="elf">Эльф</string>
+    <string name="north_name">Королевства Севера</string>
+    <string name="nilfgaard_name">Нильфгаард</string>
+    <string name="elder_name">Земли Старших Народов</string>
+    <array name="occupation_array">
+        <item>@array/bard_info</item>
+        <item>@array/witcher_info</item>
+        <item>@array/fighter_info</item>
+        <item>@array/priest_info</item>
+        <item>@array/mage_info</item>
+        <item>@array/medic_info</item>
+        <item>@array/criminal_info</item>
+        <item>@array/craftsman_info</item>
+        <item>@array/merchant_info</item>
+    </array>
+    <array name="bard_info">
+        <item name="name">@string/bard</item>
+        <item name="occupation_description">@string/bard_description</item>
+        <item name="occupation_image">@drawable/bard</item>
+        <item name="ability_name">Уличное выступление</item>
+        <item name="ability_stat">@string/empathy</item>
+        <item name="ability_description">Бард весьма полезен в группе, особенно когда у вас не
+            хватает денег.
+            Бард может потратить час времени и совершить проверку Уличного выступления в центре
+            ближайшего
+            города. Результат броска — это сумма, которую бард заработал за время уличного
+            выступления. Критический
+            провал может снизить результат броска. Отрицательный результат означает, что бард не
+            только не заработал денег, но и был освистан местными,
+            что даёт ему штраф -2 к Харизме при контакте со всеми в этом городе на остаток дня.
+        </item>
+        <item>@array/bard_abilities</item>
+        <item name="energy">0</item>
+        <item>@array/bard_equipment</item>
+        <item name="spells">Нет</item>
+    </array>
+    <array name="witcher_info">
+        <item name="name">@string/witcher</item>
+        <item name="occupation_description">@string/witcher_description</item>
+        <item name="occupation_image">@drawable/witcher</item>
+        <item name="name">Подготовка ведьмака</item>
+        <item name="ability_stat">@string/intelligence</item>
+        <item name="ability_description">Большинство ведьмаков проводят
+            детство и юность в крепости, корпя над пыльными томами и проходя чудовищные боевые
+            тренировки.
+            Многие говорят, что главное оружие
+            ведьмака — это знания о чудовищах
+            и умение найти выход из любой ситуации. Находясь в опасной среде или
+            на пересечённой местности, ведьмак
+            может снизить соответствующие
+            штрафы на половину значения своего навыка Подготовка ведьмака
+            (минимум 1). Подготовку ведьмака
+            также можно использовать в любой
+            ситуации, где понадобился бы навык
+            Монстрология.
+        </item>
+        <item>@array/witcher_abilities</item>
+        <item name="energy">2</item>
+        <item>@array/witcher_equipment</item>
+        <item name="spells">Все базовые знаки</item>
+    </array>
+    <array name="fighter_info">
+        <item name="name">@string/fighter</item>
+        <item name="occupation_description">@string/fighter_description</item>
+        <item name="occupation_image">@drawable/fighter</item>
+        <item name="name">Крепче стали</item>
+        <item name="ability_stat">@string/constitution</item>
+        <item name="ability_description">
+            Настоящие воины — будь то темерские «Синие полоски» или нильфгаардцы из бригады «Импера»
+            — никогда не сдаются. Когда ПЗ воина
+            опускается до 0 или ниже, он может
+            совершить проверку навыка Крепче
+            стали со сложностью (СЛ), равной
+            количеству отрицательных ПЗ х 2,
+            чтобы продолжить сражаться. При
+            провале воин оказывается при смерти. При успехе он может продолжать
+            сражение, как если бы его ПЗ были
+            ниже порога ранения. Получив урон,
+            он вновь должен совершить проверку со СЛ, зависящей от его ПЗ.
+
+        </item>
+        <item>@array/fighter_abilities</item>
+        <item name="energy">0</item>
+        <item>@array/fighter_equipment</item>
+        <item name="spells">Нет</item>
+    </array>
+    <array name="priest_info">
+        <item name="name">@string/priest</item>
+        <item name="occupation_description">@string/priest_description</item>
+        <item name="occupation_image">@drawable/priest</item>
+        <item name="name">Посвященный</item>
+        <item name="ability_stat">@string/empathy</item>
+        <item name="ability_description">В большинстве церквей мира рады
+            посетителям. Служители храмов помогают местным жителям и с радостью принимают
+            новообращённых
+            в свою веру. Жрец может совершить проверку навыка Посвящённый (СЛ определяет ведущий) в
+            храме своей
+            религии, чтобы получить бесплатный кров, исцеление и прочие услуги
+            на усмотрение ведущего. Навык Посвящённый также можно использовать при общении с
+            единоверцами,
+            но получите вы куда меньше, чем в церкви. Посвящённый не действует при общении с теми,
+            кто исповедует другую веру.
+        </item>
+        <item>@array/priest_abilities</item>
+        <item name="energy">2</item>
+        <item>@array/priest_equipment</item>
+        <item name="spells">2 заклинания новичка</item>
+    </array>
+    <array name="mage_info">
+        <item name="name">@string/mage</item>
+        <item name="occupation_description">@string/mage_description</item>
+        <item name="occupation_image">@drawable/mage</item>
+        <item name="name">Магические познания</item>
+        <item name="ability_stat">@string/intelligence</item>
+        <item name="ability_description">
+            Для того чтобы стать полноправным
+            магом, способный к магии адепт должен пройти обучение в одной из магических академий.
+            Магможет совершить
+            проверку Магических познаний, если
+            ему попадётся магический феномен,
+            если он увидит незнакомое заклинание
+            или захочет узнать ответ на какой-то
+            теоретический вопрос. СЛ проверки
+            определяется ведущим. При успехе маг
+            узнаёт всё, что касается данного магического феномена. Проверка Магических познаний
+            также может заменить
+            проверку Внимания для обнаружения
+            использованной магии и духов.
+        </item>
+        <item>@array/mage_abilities</item>
+        <item name="energy">5</item>
+        <item>@array/mage_equipment</item>
+        <item name="spells">5 заклинаний новичка</item>
+    </array>
+    <array name="medic_info">
+        <item name="name">@string/medic</item>
+        <item name="occupation_description">@string/medic_description</item>
+        <item name="occupation_image">@drawable/medic</item>
+        <item name="name">Лечащее прикосновение</item>
+        <item name="ability_stat">@string/craft</item>
+        <item name="ability_description">
+            Кто угодно может перевязать рану, но
+            только у медика достаточно знаний,
+            чтобы проводить сложные хирургические операции. Медик с навыком Лечащее прикосновение —
+            единственный,
+            кто способен вылечить критическое
+            ранение. Для исцеления критического
+            ранения медик должен успешно совершить несколько проверок Лечащего
+            прикосновения — число их зависит от
+            серьёзности критического ранения. СЛ
+            проверки также зависит от серьёзности
+            критического ранения. Помимо этого,
+            Лечащее прикосновение можно использовать вместо проверки Первой помощи.
+        </item>
+        <item>@array/medic_abilities</item>
+        <item name="energy">0</item>
+        <item>@array/medic_equipment</item>
+        <item name="spells">Нет</item>
+    </array>
+    <array name="criminal_info">
+        <item name="name">@string/criminal</item>
+        <item name="occupation_description">@string/criminal_description</item>
+        <item name="occupation_image">@drawable/criminal</item>
+        <item name="name">Профессиональная паранойа</item>
+        <item name="ability_stat">@string/intelligence</item>
+        <item name="ability_description">Все преступники обладают обострённым чутьём на опасность —
+            фактически профессиональной паранойей,
+            благодаря которой они избегают поимки. Когда преступник оказывается в пределах 10 метров
+            от ловушки
+            (включая экспериментальные ловушки, ловушки воина и засады), он может немедленно
+            совершить проверку
+            Профессиональной паранойи либо против СЛ обнаружения ловушки, либо против Скрытности
+            засады, либо против заданной ведущим СЛ.
+            Даже если преступник не заметит ловушки, чутьё всё равно ему подскажет,
+            что тут что-то не так.
+        </item>
+        <item>@array/criminal_abilities</item>
+        <item name="energy">0</item>
+        <item>@array/criminal_equipment</item>
+        <item name="spells">Нет</item>
+    </array>
+    <array name="craftsman_info">
+        <item name="name">@string/craftsman</item>
+        <item name="occupation_description">@string/craftsman_description</item>
+        <item name="occupation_image">@drawable/craftsmen</item>
+        <item name="name">Быстрый ремонт</item>
+        <item name="ability_stat">@string/craft</item>
+        <item name="ability_description">
+            Умелый ремесленник способен наскоро подлатать оружие или броню,
+            чтобы их владелец мог продолжать сражаться. Ремесленник свяжет вместе обрывки лопнувшей
+            тетивы, заострит край сломанного клинка или
+            приколотит металлическую пластину поверх треснувшего щита. Ремесленник может потратить
+            ход и совершить
+            проверку Быстрого ремонта со сложностью, равной СЛ Изготовления данного предмета минус
+            3, чтобы восстановить 1/2 прочности брони или 1/2
+            надёжности сломанного оружия или щита. Пока оружие после Быстрого
+            ремонта не починят в кузнице, оно наносит половину обычного урона.
+        </item>
+        <item>@array/craftsman_abilities</item>
+        <item name="energy">0</item>
+        <item>@array/craftsman_equipment</item>
+        <item name="spells">Нет</item>
+    </array>
+    <array name="merchant_info">
+        <item name="name">@string/merchant</item>
+        <item name="occupation_description">@string/merchant_description</item>
+        <item name="occupation_image">@drawable/merchant</item>
+        <item name="name">Бывалый путешественник</item>
+        <item name="ability_stat">@string/intelligence</item>
+        <item name="ability_description">
+            Обычный торговец зарабатывает на жизнь тем, что продаёт товар приходящим к нему
+            покупателям. Странствующий же торговец сам приходит
+            к покупателю. Он ездит по миру и узнаёт обо всём, что там происходит.
+            Торговец может в любой момент по своему желанию совершить проверку
+            навыка Бывалый путешественник, чтобы узнать один факт об определённом предмете, культуре
+            или области.
+            СЛ проверки определяет ведущий.
+            При успехе торговец получает ответ на вопрос, вспомнив те времена, когда он в прошлый
+            раз был в этом месте.
+        </item>
+        <item>@array/merchant_abilities</item>
+        <item name="energy">0</item>
+        <item>@array/merchant_equipment</item>
+        <item name="spells">Нет</item>
+    </array>
+    <array name="human_names">
+        <item>Joseph</item>
+        <item>Jonathan</item>
+        <item>Jotaro</item>
+        <item>Greg</item>
+        <item>Kyle</item>
+        <item>Andrew</item>
+        <item>Sofie</item>
+        <item>Anna</item>
+        <item>Lisa</item>
+    </array>
+    <array name="home_country">
+        <item>Королевства Севера</item>
+        <item>Нильфгаард</item>
+        <item>Земли Старших Народов</item>
+    </array>
+    <array name="country_north">
+        <item>Редания</item>
+        <item>Каэдвен</item>
+        <item>Темерия</item>
+        <item>Аэдери</item>
+        <item>Лирия и Ривия</item>
+        <item>Ковир и Понтис</item>
+        <item>Скеллиге</item>
+        <item>Цидарисг</item>
+        <item>Вердэн</item>
+        <item>Цинтра</item>
+    </array>
+    <array name="country_nilfgaard">
+        <item>Сердце Нильфгаарда</item>
+        <item>Виковаро</item>
+        <item>Ангрен</item>
+        <item>Назаир</item>
+        <item>Меттина</item>
+        <item>Маг Турга</item>
+        <item>Гесо</item>
+        <item>Эббинг</item>
+        <item>Мехт</item>
+        <item>Геммера</item>
+        <item>Этолия</item>
+    </array>
+    <array name="country_elder">
+        <item>Доль Блатанна</item>
+        <item>Махакам</item>
+    </array>
+    <array name="family_status">
+        <item>С семьей что-то случилось</item>
+        <item>С родителями что-то случилось</item>
+        <item>С семьей все впорядке</item>
+    </array>
+    <array name="stats">
+        <item>@string/intelligence</item>
+        <item>@string/reaction</item>
+        <item>@string/agility</item>
+        <item>@string/constitution</item>
+        <item>@string/speed</item>
+        <item>@string/empathy</item>
+        <item>@string/craft</item>
+        <item>@string/will</item>
+        <item>@string/luck</item>
+    </array>
+    <array name="intelligence_abilities">
+        <item>@string/perception</item>
+        <item>@string/survival</item>
+        <item>@string/deduction</item>
+        <item>@string/education</item>
+        <item>@string/monster_knowledge</item>
+        <item>@string/tutoring</item>
+        <item>@string/city_knowledge</item>
+        <item>@string/tactics</item>
+        <item>@string/trade</item>
+        <item>@string/etiquette</item>
+        <item>@string/language_common</item>
+        <item>@string/language_elder_speech</item>
+        <item>@string/language_dwarven</item>
+    </array>
+    <array name="reaction_abilities">
+        <item>@string/melee_combat</item>
+        <item>@string/brawling</item>
+        <item>@string/riding</item>
+        <item>@string/polearms</item>
+        <item>@string/light_blades</item>
+        <item>@string/blades</item>
+        <item>@string/seafaring</item>
+        <item>@string/dodge</item>
+    </array>
+    <array name="agility_abilities">
+        <item>@string/athletics</item>
+        <item>@string/sleight_of_hand</item>
+        <item>@string/stealth</item>
+        <item>@string/crossbows</item>
+        <item>@string/bows</item>
+    </array>
+    <array name="constitution_abilities">
+        <item>@string/strength</item>
+        <item>@string/toughness</item>
+    </array>
+    <array name="empathy_abilities">
+        <item>@string/gambling</item>
+        <item>@string/looks</item>
+        <item>@string/performance</item>
+        <item>@string/arts</item>
+        <item>@string/leadership</item>
+        <item>@string/deception</item>
+        <item>@string/insight</item>
+        <item>@string/seduction</item>
+        <item>@string/persuasion</item>
+        <item>@string/charisma</item>
+    </array>
+    <array name="craft_abilities">
+        <item>@string/alchemy</item>
+        <item>@string/lockpicking</item>
+        <item>@string/trap_knowledge</item>
+        <item>@string/crafting</item>
+        <item>@string/disguise</item>
+        <item>@string/forgery</item>
+    </array>
+    <array name="will_abilities">
+        <item>@string/intimidation</item>
+        <item>@string/hex_craft</item>
+        <item>@string/ritual_craft</item>
+        <item>@string/magic_resistance</item>
+        <item>@string/resist_coercion</item>
+        <item>@string/spellcraft</item>
+        <item>@string/bravery</item>
+    </array>
+    <array name="difficult_abilities">
+        <item>@string/monster_knowledge</item>
+        <item>@string/tactics</item>
+        <item>@string/language_common</item>
+        <item>@string/language_elder_speech</item>
+        <item>@string/language_dwarven</item>
+        <item>@string/alchemy</item>
+        <item>@string/trap_knowledge</item>
+        <item>@string/crafting</item>
+        <item>@string/hex_craft</item>
+        <item>@string/ritual_craft</item>
+        <item>@string/magic_resistance</item>
+        <item>@string/spellcraft</item>
+    </array>
+    <string name="type_weapon">Оружие</string>
+    <string name="type_equipment">Снаряжение</string>
+    <string name="type_armor">Броня</string>
+    <string name="rarity_regular">П</string>
+    <string name="rarity_common">О</string>
+    <string name="rarity_rare">Р</string>
+    <string name="rarity_unique">У</string>
+    <string name="obscurity_small">М</string>
+    <string name="obscurity_medium">Н</string>
+    <string name="obscurity_big">К</string>
+    <string name="obscurity_cant">Н/С</string>
+    <string name="blade_weapon">Меч</string>
+    <string name="light_blade_weapon">Легкий клинок</string>
+    <string name="axe_weapon">Топор</string>
+    <string name="bludgeoning_weapon">Дробящее</string>
+    <string name="polearm_weapon">Древковое</string>
+    <string name="staff_weapon">Посох</string>
+    <string name="throwing_weapon">Метательное</string>
+    <string name="bow_weapon">Лук</string>
+    <string name="crossbow_weapon">Арбалет</string>
+    <string name="light_armor">Легкая</string>
+    <string name="medium_armor">Средняя</string>
+    <string name="heavy_armor">Тяжелая</string>
+    <string name="head_armor">Головная</string>
+    <string name="armor_shield">Щит</string>
+    <string name="body_armor">Корпусная</string>
+    <string name="leg_armor">Ножная</string>
+    <string-array name="item_name_fields">
+        <item>Тип</item>
+        <item>Редкость</item>
+        <item>Вес</item>
+        <item>Цена</item>
+    </string-array>
+    <string-array name="armor_name_fields">
+        <item>Тип брони</item>
+        <item>Место для брони</item>
+        <item>Пункты брони</item>
+        <item>Скованность</item>
+    </string-array>
+    <string-array name="weapon_name_fields">
+        <item>Тип оружия</item>
+        <item>Урон</item>
+        <item>Точность</item>
+        <item>Надежность</item>
+        <item>Дистанция</item>
+        <item>Скрытность</item>
+    </string-array>
+    <array name="knight_sword">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Рыцарский меч</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">2.5</item>
+        <item name="cost">270</item>
+        <item name="weapon_type">@string/blade_weapon</item>
+        <item name="damage">2d6+4</item>
+        <item name="accuracy">0</item>
+        <item name="reliability">15</item>
+        <item name="range">0</item>
+        <item name="effects"></item>
+        <item name="obscurity">@string/obscurity_big</item>
+    </array>
+    <array name="dagger">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Кинжал</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.5</item>
+        <item name="cost">50</item>
+        <item name="weapon_type">@string/light_blade_weapon</item>
+        <item name="damage">1d6+2</item>
+        <item name="accuracy">0</item>
+        <item name="reliability">10</item>
+        <item name="range">0</item>
+        <item name="effects"></item>
+        <item name="obscurity">@string/obscurity_medium</item>
+    </array>
+    <array name="dice_poker">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Покер на костях</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.5</item>
+        <item name="cost">25</item>
+    </array>
+    <array name="gwint_deck">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Колода для гвинта</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.1</item>
+        <item name="cost">5</item>
+    </array>
+    <array name="hand_mirror">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Ручное зеркало</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.5</item>
+        <item name="cost">27</item>
+    </array>
+    <array name="music_instrument">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Музыкальные инструмент</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">1</item>
+        <item name="cost">38</item>
+    </array>
+    <array name="flask">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Фляга с выпивкой</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">1</item>
+        <item name="cost">18</item>
+    </array>
+    <array name="perfume">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Духи</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.1</item>
+        <item name="cost">22</item>
+    </array>
+    <array name="belt_pack">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Поясная сумка</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.1</item>
+        <item name="cost">7</item>
+    </array>
+    <array name="hip_scabbard">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Набедренные ножны</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.1</item>
+        <item name="cost">11</item>
+    </array>
+    <array name="locked_diary">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Дневник с замком</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.6</item>
+        <item name="cost">42</item>
+    </array>
+    <array name="alchemist_supplies">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Инструменты алхимика</item>
+        <item name="rarity">@string/rarity_rare</item>
+        <item name="weight">3</item>
+        <item name="cost">80</item>
+    </array>
+    <array name="throwing_knives">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Метательный нож</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.5</item>
+        <item name="cost">50</item>
+        <item name="weapon_type">@string/throwing_weapon</item>
+        <item name="damage">1d6</item>
+        <item name="accuracy">0</item>
+        <item name="reliability">5</item>
+        <item name="range">4</item>
+        <item name="effects"></item>
+        <item name="obscurity">@string/obscurity_small</item>
+    </array>
+    <array name="hand_crossbow">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Ручной арбалет</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.5</item>
+        <item name="cost">285</item>
+        <item name="weapon_type">@string/crossbow_weapon</item>
+        <item name="damage">2d6+2</item>
+        <item name="accuracy">1</item>
+        <item name="reliability">5</item>
+        <item name="range">50</item>
+        <item name="effects">Медленно перезаряжающееся</item>
+        <item name="obscurity">@string/obscurity_big</item>
+    </array>
+    <array name="two_layer_gambeson">
+        <item name="item_type">@string/type_armor</item>
+        <item name="item_name">Двуслойный гамбезон</item>
+        <item name="rarity">@string/rarity_rare</item>
+        <item name="weight">2.5</item>
+        <item name="cost">250</item>
+        <item name="armor_type">@string/light_armor</item>
+        <item name="armor_cover">@string/body_armor</item>
+        <item name="armor_strength">8</item>
+        <item name="stiffness">0</item>
+        <item name="effects"></item>
+    </array>
+    <array name="steel_witcher_sword">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Стальной ведьмачий меч</item>
+        <item name="rarity">@string/rarity_unique</item>
+        <item name="weight">2.5</item>
+        <item name="cost">498</item>
+        <item name="weapon_type">@string/blade_weapon</item>
+        <item name="damage">4d6+2</item>
+        <item name="accuracy">0</item>
+        <item name="reliability">15</item>
+        <item name="range">0</item>
+        <item name="effects">Пробивающее броню, Метеоритное</item>
+        <item name="obscurity">@string/obscurity_cant</item>
+    </array>
+    <array name="silver_witcher_sword">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Серебрянный ведьмачий меч</item>
+        <item name="rarity">@string/rarity_unique</item>
+        <item name="weight">1.5</item>
+        <item name="cost">507</item>
+        <item name="weapon_type">@string/blade_weapon</item>
+        <item name="damage">1d6+2</item>
+        <item name="accuracy">0</item>
+        <item name="reliability">10</item>
+        <item name="range">0</item>
+        <item name="effects">Серебрянное (3d6)</item>
+        <item name="obscurity">@string/obscurity_cant</item>
+    </array>
+    <array name="witcher_medallion">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Ведьмачий медальон</item>
+        <item name="rarity">@string/rarity_unique</item>
+        <item name="weight">0.1</item>
+        <item name="cost">82</item>
+    </array>
+    <array name="kord">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Корд</item>
+        <item name="rarity">@string/rarity_unique</item>
+        <item name="weight">1.5</item>
+        <item name="cost">725</item>
+        <item name="weapon_type">@string/blade_weapon</item>
+        <item name="damage">5d6</item>
+        <item name="accuracy">0</item>
+        <item name="reliability">15</item>
+        <item name="range">0</item>
+        <item name="effects">Кровопускающее(25%)</item>
+        <item name="obscurity">@string/obscurity_cant</item>
+    </array>
+    <array name="spear">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Копье</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">3.5</item>
+        <item name="cost">375</item>
+        <item name="weapon_type">@string/polearm_weapon</item>
+        <item name="damage">3d6</item>
+        <item name="accuracy">0</item>
+        <item name="reliability">10</item>
+        <item name="range">0</item>
+        <item name="effects">Длинное</item>
+        <item name="obscurity">@string/obscurity_cant</item>
+    </array>
+    <array name="battle_axe">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Боевой топор</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">2</item>
+        <item name="cost">525</item>
+        <item name="weapon_type">@string/axe_weapon</item>
+        <item name="damage">5d6</item>
+        <item name="accuracy">0</item>
+        <item name="reliability">15</item>
+        <item name="range">0</item>
+        <item name="effects"></item>
+        <item name="obscurity">@string/obscurity_big</item>
+    </array>
+    <array name="shoulder_bag">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Наплечная сумка</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">1</item>
+        <item name="cost">14</item>
+    </array>
+    <array name="chain_mail_cowl">
+        <item name="item_type">@string/type_armor</item>
+        <item name="item_name">Кольчужный капюшон</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">1.5</item>
+        <item name="cost">250</item>
+        <item name="armor_type">@string/medium_armor</item>
+        <item name="armor_cover">@string/head_armor</item>
+        <item name="armor_strength">12</item>
+        <item name="stiffness">0</item>
+        <item name="effects"></item>
+    </array>
+    <array name="brigantine">
+        <item name="item_type">@string/type_armor</item>
+        <item name="item_name">Бригантина</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">7</item>
+        <item name="cost">300</item>
+        <item name="armor_type">@string/medium_armor</item>
+        <item name="armor_cover">@string/body_armor</item>
+        <item name="armor_strength">12</item>
+        <item name="stiffness">1</item>
+        <item name="effects"></item>
+    </array>
+    <array name="reinforced_pants">
+        <item name="item_type">@string/type_armor</item>
+        <item name="item_name">Усиленные штаны</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">3.5</item>
+        <item name="cost">250</item>
+        <item name="armor_type">@string/medium_armor</item>
+        <item name="armor_cover">@string/leg_armor</item>
+        <item name="armor_strength">12</item>
+        <item name="stiffness">0</item>
+        <item name="effects"></item>
+    </array>
+    <array name="crossbow">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Арбалет</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">3</item>
+        <item name="cost">455</item>
+        <item name="weapon_type">@string/crossbow_weapon</item>
+        <item name="damage">4d6+2</item>
+        <item name="accuracy">1</item>
+        <item name="reliability">5</item>
+        <item name="range">100</item>
+        <item name="effects">Медленно перезаряжающееся</item>
+        <item name="obscurity">@string/obscurity_cant</item>
+    </array>
+    <array name="steel_buckler">
+        <item name="item_type">@string/type_armor</item>
+        <item name="item_name">Стальной баклер</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">1</item>
+        <item name="cost">150</item>
+        <item name="armor_type">@string/light_armor</item>
+        <item name="armor_cover">@string/armor_shield</item>
+        <item name="armor_strength">6</item>
+        <item name="stiffness">0</item>
+        <item name="effects"></item>
+    </array>
+    <array name="holy_symbol">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Священный символ</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.1</item>
+        <item name="cost">14</item>
+    </array>
+    <array name="disinfection_liquid">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Обеззараживающая жидкость</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">0.1</item>
+        <item name="cost">22</item>
+    </array>
+    <array name="surgeon_kit">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Хирургические инструменты</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">1</item>
+        <item name="cost">83</item>
+    </array>
+    <array name="sand_clock">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Песочные часы</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">1</item>
+        <item name="cost">38</item>
+    </array>
+    <array name="staff">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Посох</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">3</item>
+        <item name="cost">335</item>
+        <item name="weapon_type">@string/polearm_weapon</item>
+        <item name="damage">1d6+2</item>
+        <item name="accuracy">0</item>
+        <item name="reliability">10</item>
+        <item name="range">0</item>
+        <item name="effects">Длинное, Фокусирующее(1)</item>
+        <item name="obscurity">@string/obscurity_cant</item>
+    </array>
+    <array name="blood_clotting_powder">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Кровосвертывающий порошок</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">0.1</item>
+        <item name="cost">20</item>
+    </array>
+    <array name="painkiller_herbs">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Обезболивающие травы</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.1</item>
+        <item name="cost">12</item>
+    </array>
+    <array name="makeup_kit">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Набор для макияжа</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.5</item>
+        <item name="cost">35</item>
+    </array>
+    <array name="writing_utensils">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Письменные принадлежности</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">1</item>
+        <item name="cost">25</item>
+    </array>
+    <array name="diary">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Дневник</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.5</item>
+        <item name="cost">8</item>
+    </array>
+    <array name="candle">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Свеча</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.1</item>
+        <item name="cost">1</item>
+    </array>
+    <array name="blanket">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Одеяло</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.75</item>
+        <item name="cost">8</item>
+    </array>
+    <array name="big_tent">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Большая палатка</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">8</item>
+        <item name="cost">36</item>
+    </array>
+    <array name="cheaters_dice">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Шулерские кости</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.1</item>
+        <item name="cost">12</item>
+    </array>
+    <array name="bulls_eye_lantern">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Фонарь "Бычий глаз"</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">1</item>
+        <item name="cost">39</item>
+    </array>
+    <array name="secret_pocket">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Потайной карман</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.1</item>
+        <item name="cost">11</item>
+    </array>
+    <array name="thief_tools">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Воровские инструменты</item>
+        <item name="rarity">@string/rarity_rare</item>
+        <item name="weight">1</item>
+        <item name="cost">80</item>
+    </array>
+    <array name="hand_scabbard">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Наручные ножны</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.1</item>
+        <item name="cost">13</item>
+    </array>
+    <array name="stiletto">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Стилетт</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">0.5</item>
+        <item name="cost">275</item>
+        <item name="weapon_type">@string/light_blade_weapon</item>
+        <item name="damage">1d6</item>
+        <item name="accuracy">2</item>
+        <item name="reliability">5</item>
+        <item name="range">0</item>
+        <item name="effects">Незаметное</item>
+        <item name="obscurity">@string/obscurity_small</item>
+    </array>
+    <array name="brass_knuckles">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Кастет</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.5</item>
+        <item name="cost">50</item>
+        <item name="weapon_type">@string/bludgeoning_weapon</item>
+        <item name="damage">1d6</item>
+        <item name="accuracy">1</item>
+        <item name="reliability">15</item>
+        <item name="range">0</item>
+        <item name="effects">Рукопашное</item>
+        <item name="obscurity">@string/obscurity_small</item>
+    </array>
+    <array name="chloroform">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Хлороформ</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">0.1</item>
+        <item name="cost">36</item>
+    </array>
+    <array name="forge_tools">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Походная кузня</item>
+        <item name="rarity">@string/rarity_rare</item>
+        <item name="weight">5</item>
+        <item name="cost">111</item>
+    </array>
+    <array name="merchant_tools">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Инструменты торговца</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">1.5</item>
+        <item name="cost">60</item>
+    </array>
+    <array name="iron_bastard_sword">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Железный полуторные меч</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">1.5</item>
+        <item name="cost">160</item>
+        <item name="weapon_type">@string/blade_weapon</item>
+        <item name="damage">2d6 + 2</item>
+        <item name="accuracy">0</item>
+        <item name="reliability">10</item>
+        <item name="range">0</item>
+        <item name="effects"></item>
+        <item name="obscurity">@string/obscurity_big</item>
+    </array>
+    <array name="craftsman_tools">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Инструменты ремесленника</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">5</item>
+        <item name="cost">83</item>
+    </array>
+    <array name="small_chest">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Небольшой сундук</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.5</item>
+        <item name="cost">9</item>
+    </array>
+    <array name="mace">
+        <item name="item_type">@string/type_weapon</item>
+        <item name="item_name">Булава</item>
+        <item name="rarity">@string/rarity_common</item>
+        <item name="weight">2</item>
+        <item name="cost">525</item>
+        <item name="weapon_type">@string/bludgeoning_weapon</item>
+        <item name="damage">5d6</item>
+        <item name="accuracy">0</item>
+        <item name="reliability">15</item>
+        <item name="range">0</item>
+        <item name="effects"></item>
+        <item name="obscurity">@string/obscurity_big</item>
+    </array>
+    <array name="lock">
+        <item name="item_type">@string/type_equipment</item>
+        <item name="item_name">Замок</item>
+        <item name="rarity">@string/rarity_regular</item>
+        <item name="weight">0.1</item>
+        <item name="cost">34</item>
+    </array>
+    <array name="dice_poker_starting">
+        <item name="item">@array/dice_poker</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="gwint_deck_starting">
+        <item name="item">@array/gwint_deck</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="hand_mirror_starting">
+        <item name="item">@array/hand_mirror</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="music_instrument_starting">
+        <item name="item">@array/music_instrument</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="flask_starting">
+        <item name="item">@array/flask</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="dagger_starting">
+        <item name="item">@array/dagger</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="perfume_starting">
+        <item name="item">@array/perfume</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="belt_pack_starting">
+        <item name="item">@array/belt_pack</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="hip_scabbard_starting">
+        <item name="item">@array/hip_scabbard</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="locked_diary_starting">
+        <item name="item">@array/locked_diary</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="bard_equipment">
+        <item>@array/dice_poker_starting</item>
+        <item>@array/gwint_deck_starting</item>
+        <item>@array/hand_mirror_starting</item>
+        <item>@array/music_instrument_starting</item>
+        <item>@array/flask_starting</item>
+        <item>@array/dagger_starting</item>
+        <item>@array/perfume_starting</item>
+        <item>@array/belt_pack_starting</item>
+        <item>@array/hip_scabbard_starting</item>
+        <item>@array/locked_diary_starting</item>
+    </array>
+    <array name="alchemist_supplies_starting">
+        <item name="item">@array/alchemist_supplies</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="throwing_knives_starting">
+        <item name="item">@array/throwing_knives</item>
+        <item name="amount">5</item>
+    </array>
+    <array name="hand_crossbow_starting">
+        <item name="item">@array/hand_crossbow</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="two_layer_gambeson_starting">
+        <item name="item">@array/two_layer_gambeson</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="steel_witcher_sword_starting">
+        <item name="item">@array/steel_witcher_sword</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="silver_witcher_sword_starting">
+        <item name="item">@array/silver_witcher_sword</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="witcher_medallion_starting">
+        <item name="item">@array/witcher_medallion</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="witcher_equipment">
+        <item>@array/alchemist_supplies_starting</item>
+        <item>@array/throwing_knives_starting</item>
+        <item>@array/hand_crossbow_starting</item>
+        <item>@array/two_layer_gambeson_starting</item>
+        <item>@array/witcher_medallion_starting</item>
+        <item>@array/steel_witcher_sword_starting</item>
+        <item>@array/silver_witcher_sword_starting</item>
+    </array>
+    <array name="kord_starting">
+        <item name="item">@array/kord</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="spear_starting">
+        <item name="item">@array/spear</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="battle_axe_starting">
+        <item name="item">@array/battle_axe</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="shoulder_bag_starting">
+        <item name="item">@array/shoulder_bag</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="chain_mail_cowl_starting">
+        <item name="item">@array/chain_mail_cowl</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="brigantine_starting">
+        <item name="item">@array/brigantine</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="reinforced_pants_starting">
+        <item name="item">@array/reinforced_pants</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="crossbow_starting">
+        <item name="item">@array/crossbow</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="steel_buckler_starting">
+        <item name="item">@array/steel_buckler</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="fighter_equipment">
+        <item>@array/kord_starting</item>
+        <item>@array/spear_starting</item>
+        <item>@array/battle_axe_starting</item>
+        <item>@array/throwing_knives_starting</item>
+        <item>@array/shoulder_bag_starting</item>
+        <item>@array/chain_mail_cowl_starting</item>
+        <item>@array/brigantine_starting</item>
+        <item>@array/reinforced_pants_starting</item>
+        <item>@array/crossbow_starting</item>
+        <item>@array/steel_buckler_starting</item>
+    </array>
+    <array name="holy_symbol_starting">
+        <item name="item">@array/holy_symbol</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="disinfection_liquid_starting">
+        <item name="item">@array/disinfection_liquid</item>
+        <item name="amount">5</item>
+    </array>
+    <array name="surgeon_kit_starting">
+        <item name="item">@array/surgeon_kit</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="sand_clock_starting">
+        <item name="item">@array/sand_clock</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="staff_starting">
+        <item name="item">@array/staff</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="blood_clotting_powder_starting">
+        <item name="item">@array/blood_clotting_powder</item>
+        <item name="amount">5</item>
+    </array>
+    <array name="painkiller_herbs_starting">
+        <item name="item">@array/painkiller_herbs</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="priest_equipment">
+        <item>@array/holy_symbol_starting</item>
+        <item>@array/disinfection_liquid_starting</item>
+        <item>@array/alchemist_supplies_starting</item>
+        <item>@array/surgeon_kit_starting</item>
+        <item>@array/sand_clock_starting</item>
+        <item>@array/dagger_starting</item>
+        <item>@array/staff_starting</item>
+        <item>@array/blood_clotting_powder_starting</item>
+        <item>@array/painkiller_herbs_starting</item>
+    </array>
+    <array name="makeup_kit_starting">
+        <item name="item">@array/makeup_kit</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="writing_utensils_starting">
+        <item name="item">@array/writing_utensils</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="diary_starting">
+        <item name="item">@array/diary</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="mage_equipment">
+        <item>@array/sand_clock_starting</item>
+        <item>@array/makeup_kit_starting</item>
+        <item>@array/belt_pack_starting</item>
+        <item>@array/writing_utensils_starting</item>
+        <item>@array/hand_mirror_starting</item>
+        <item>@array/dagger_starting</item>
+        <item>@array/staff_starting</item>
+        <item>@array/hip_scabbard_starting</item>
+        <item>@array/painkiller_herbs_starting</item>
+    </array>
+    <array name="blood_clotting_powder_starting_medic">
+        <item name="item">@array/blood_clotting_powder</item>
+        <item name="amount">10</item>
+    </array>
+    <array name="disinfection_liquid_starting_medic">
+        <item name="item">@array/disinfection_liquid</item>
+        <item name="amount">10</item>
+    </array>
+    <array name="painkiller_herbs_starting_medic">
+        <item name="item">@array/painkiller_herbs</item>
+        <item name="amount">10</item>
+    </array>
+    <array name="candle_starting">
+        <item name="item">@array/candle</item>
+        <item name="amount">10</item>
+    </array>
+    <array name="blanket_starting">
+        <item name="item">@array/blanket</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="big_tent_starting">
+        <item name="item">@array/big_tent</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="medic_equipment">
+        <item>@array/blood_clotting_powder_starting_medic</item>
+        <item>@array/disinfection_liquid_starting_medic</item>
+        <item>@array/painkiller_herbs_starting_medic</item>
+        <item>@array/surgeon_kit_starting</item>
+        <item>@array/writing_utensils_starting</item>
+        <item>@array/sand_clock_starting</item>
+        <item>@array/candle_starting</item>
+        <item>@array/blanket_starting</item>
+        <item>@array/big_tent_starting</item>
+        <item>@array/dagger_starting</item>
+    </array>
+    <array name="cheaters_dice_starting">
+        <item name="item">@array/cheaters_dice</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="bulls_eye_lantern_starting">
+        <item name="item">@array/bulls_eye_lantern</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="secret_pocket_starting">
+        <item name="item">@array/secret_pocket</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="thief_tools_starting">
+        <item name="item">@array/thief_tools</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="hand_scabbard_starting">
+        <item name="item">@array/hand_scabbard</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="stiletto_starting">
+        <item name="item">@array/stiletto</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="brass_knuckles_starting">
+        <item name="item">@array/brass_knuckles</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="chloroform_starting">
+        <item name="item">@array/chloroform</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="criminal_equipment">
+        <item>@array/cheaters_dice_starting</item>
+        <item>@array/bulls_eye_lantern_starting</item>
+        <item>@array/secret_pocket_starting</item>
+        <item>@array/thief_tools_starting</item>
+        <item>@array/hand_scabbard_starting</item>
+        <item>@array/stiletto_starting</item>
+        <item>@array/brass_knuckles_starting</item>
+        <item>@array/throwing_knives_starting</item>
+        <item>@array/chloroform_starting</item>
+        <item>@array/shoulder_bag_starting</item>
+    </array>
+    <array name="forge_tools_starting">
+        <item name="item">@array/forge_tools</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="merchant_tools_starting">
+        <item name="item">@array/merchant_tools</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="iron_bastard_sword_starting">
+        <item name="item">@array/iron_bastard_sword</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="craftsman_tools_starting">
+        <item name="item">@array/craftsman_tools</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="small_chest_starting">
+        <item name="item">@array/small_chest</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="mace_starting">
+        <item name="item">@array/mace</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="lock_starting">
+        <item name="item">@array/lock</item>
+        <item name="amount">1</item>
+    </array>
+    <array name="craftsman_equipment">
+        <item>@array/forge_tools_starting</item>
+        <item>@array/merchant_tools_starting</item>
+        <item>@array/iron_bastard_sword_starting</item>
+        <item>@array/craftsman_tools_starting</item>
+        <item>@array/alchemist_supplies_starting</item>
+        <item>@array/sand_clock_starting</item>
+        <item>@array/small_chest_starting</item>
+        <item>@array/mace_starting</item>
+        <item>@array/lock_starting</item>
+    </array>
+    <array name="merchant_equipment">
+        <item>@array/writing_utensils_starting</item>
+        <item>@array/merchant_tools_starting</item>
+        <item>@array/big_tent_starting</item>
+        <item>@array/diary_starting</item>
+        <item>@array/crossbow_starting</item>
+        <item>@array/dagger_starting</item>
+    </array>
+    <string name="drop_menu_hint">Хееееей</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="equipment">Снаряжение</string>
+    <string name="backstory">Предыстория</string>
+    <string name="skill_tree">Ветка навыков</string>
+    <string name="main_list">Главная</string>
+    <string name="magic">Магия</string>
+</resources>

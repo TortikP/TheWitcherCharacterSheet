@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fragmentMain">
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.example.thewitchercharachtersheet.fragments.FragmentMain"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_fragmentMain_to_fragmentOccupation"
+            app:destination="@id/fragmentOccupation"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_fragmentMain_to_fragmentCharacter"
+            app:destination="@id/fragmentCharacter" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCharacter"
+        android:name="com.example.thewitchercharachtersheet.fragments.FragmentCharacter"
+        android:label="fragment_character"
+        tools:layout="@layout/fragment_character" />
+    <fragment
+        android:id="@+id/fragmentOccupation"
+        android:name="com.example.thewitchercharachtersheet.fragments.FragmentOccupation"
+        android:label="fragment_occupation"
+        tools:layout="@layout/fragment_occupation" >
+        <action
+            android:id="@+id/action_fragmentOccupation_to_fragmentBackstory"
+            app:destination="@id/fragmentBackstory"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="character"
+            app:argType="com.example.thewitchercharachtersheet.objects.WitcherCharacter" />
+        <action
+            android:id="@+id/action_fragmentOccupation_to_fragmentOccupationDetails"
+            app:destination="@id/fragmentOccupationDetails"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/fragmentOccupation"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentBackstory"
+        android:name="com.example.thewitchercharachtersheet.fragments.FragmentBackstory"
+        android:label="fragment_backstory"
+        tools:layout="@layout/fragment_backstory" >
+        <action
+            android:id="@+id/action_fragmentBackstory_to_fragmentStats"
+            app:destination="@id/fragmentStats"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="character"
+            app:argType="com.example.thewitchercharachtersheet.objects.WitcherCharacter" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentStats"
+        android:name="com.example.thewitchercharachtersheet.fragments.FragmentStats"
+        android:label="fragment_stats"
+        tools:layout="@layout/fragment_stats" >
+        <action
+            android:id="@+id/action_fragmentStats_to_fragmentAbilities"
+            app:destination="@id/fragmentAbilities" />
+        <argument
+            android:name="character"
+            app:argType="com.example.thewitchercharachtersheet.objects.WitcherCharacter" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentAbilities"
+        android:name="com.example.thewitchercharachtersheet.fragments.FragmentAbilities"
+        android:label="fragment_abilities"
+        tools:layout="@layout/fragment_abilities" >
+        <argument
+            android:name="character"
+            app:argType="com.example.thewitchercharachtersheet.objects.WitcherCharacter" />
+        <action
+            android:id="@+id/action_fragmentAbilities_to_fragmentEquipment"
+            app:destination="@id/fragmentEquipment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentOccupationDetails"
+        android:name="com.example.thewitchercharachtersheet.fragments.FragmentOccupationDetails"
+        android:label="fragment_occupation_details"
+        tools:layout="@layout/fragment_occupation_details" >
+        <argument
+            android:name="character"
+            app:argType="com.example.thewitchercharachtersheet.objects.WitcherCharacter" />
+        <action
+            android:id="@+id/action_fragmentOccupationDetails_to_fragmentOccupation"
+            app:destination="@id/fragmentOccupation" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentEquipment"
+        android:name="com.example.thewitchercharachtersheet.fragments.FragmentEquipment"
+        android:label="fragment_equipment"
+        tools:layout="@layout/fragment_equipment" />
+</navigation>

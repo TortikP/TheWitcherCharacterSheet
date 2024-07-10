@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TheWitcherCharachterSheet" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:colorBackground">@color/background</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/toolbar</item>
+        <item name="colorPrimaryVariant">@color/toolbar</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/toolbar</item>
+        <item name="colorSecondaryVariant">@color/toolbar</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorPrimaryDark">@color/toolbar</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="spinnerStyle">@style/SpinnerStyle</item>
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="Theme.TheWitcherCharachterSheet" parent="Base.Theme.TheWitcherCharachterSheet" />
+    <style name="Theme.TheWitcherCharachterSheet.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.TheWitcherCharachterSheet.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.TheWitcherCharachterSheet.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light" />
+</resources>

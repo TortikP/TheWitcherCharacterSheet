@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/equipment_view"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="1">
+    <ImageView
+        android:id="@+id/dop_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/info_icon"
+        android:layout_weight="0.1"/>
+
+    <TextView
+        android:id="@+id/equipment_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:paddingStart="5sp"
+        android:gravity="start"
+        android:text="Название" />
+    <TextView
+        android:id="@+id/parameter1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Пар1"
+        android:gravity="center"
+        android:layout_weight="0.15"/>
+    <TextView
+        android:id="@+id/parameter2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Пар2"
+        android:gravity="center"
+        android:layout_weight="0.15"/>
+</LinearLayout>

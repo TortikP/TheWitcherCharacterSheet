@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#808080</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#EAEAD2</color>
+    <color name="background_darker">#E6D690</color>
+    <color name="toolbar">#590404</color>
+    <color name="elephant_bone">#FFFFF0</color>
+
+</resources>

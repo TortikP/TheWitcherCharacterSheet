@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main_char"
+            android:title="@string/main_list"
+            />
+        <item
+            android:id="@+id/nav_skill_tree"
+            android:title="@string/skill_tree" />
+        <item
+            android:id="@+id/nav_lifepath"
+            android:title="@string/backstory" />
+        <item
+            android:id="@+id/nav_equipment"
+            android:title="@string/equipment" />
+        <item
+            android:id="@+id/nav_magic"
+            android:title="@string/magic"
+            android:visible="false" />
+    </group>
+
+</menu>
